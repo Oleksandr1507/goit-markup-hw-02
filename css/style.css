@@ -16,6 +16,13 @@ body {
 .list {
     list-style: none;
 }
+
+/*----------cursor-------------*/
+
+.cursor {
+    cursor: pointer;
+}
+
 /*----------HEADER-------------*/
 
 .header {
@@ -69,7 +76,7 @@ text-transform: uppercase;
 color: var(--primary-title-color);
 }
 
-.btn {
+.btn-hero {
  font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -80,6 +87,10 @@ text-align: center;
 letter-spacing: 0.06em;
 color: var(--primary-title-color);
 }
+.btn-hero {
+    background-color: #2196F3;
+}
+
 
 /*----------benefits-------------*/
 
@@ -170,6 +181,7 @@ color: var(--secondary-title-color);
 font-size: 16px;
 line-height: 1.62;
 color: var(--primary-title-color);
+background-color: #2196F3;
 }
 
 
