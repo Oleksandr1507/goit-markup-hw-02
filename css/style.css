@@ -162,21 +162,24 @@ line-height: 1.71;
 color:  rgba(255, 255, 255, 0.6);
 
 }
-
-/*----------button-------------*/
-
-.button {
-    background-color: #E5E5E5;;
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+     color: var(--acent-color);
 }
-.button-btn {
+
+/*----------about-------------*/
+
+
+
+.about-btn {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 color: var(--secondary-title-color);
 }
 
-.button-btn:hover,
-.button-btn:focus {
+.about-btn:hover,
+.about-btn:focus {
     font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
